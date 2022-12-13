@@ -1,0 +1,37 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "firebase emulators:start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pharmacy-handbook/website.git"
+  },
+  "author": "Muhammed Faizel Adam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pharmacy-handbook/website/issues"
+  },
+  "homepage": "https://github.com/pharmacy-handbook/website#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "firebase": "^9.14.0",
+    "firebase-tools": "^1.2.0",
+    "helmet": "^6.0.1",
+    "node-viewerjs": "^0.7.4",
+    "nodemon": "^2.0.20",
+    "requirejs": "^2.3.6"
+  }
+}

@@ -1,0 +1,11 @@
+<body>
+    <% if (messages.success) { %>
+        <div id="successful-login-message" class="text-center alert alert-success" role="alert"><%= messages.success %></div>
+    <% } %>
+    
+    <form action="/logout" class="validated-form" method="POST" novalidate>
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <button id="btn-logout" type="submit" class="btn btn-outline-danger w-100 font-weight-bold">Sign Out</button>
+      </form>
+    <iframe id="iframe" src="/viewer/#../assets/PH - Updated 28.11.22.pdf" class="w-100" style="" allowfullscreen webkitallowfullscreen></iframe>
+</body>
